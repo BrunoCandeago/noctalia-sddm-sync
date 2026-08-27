@@ -56,6 +56,9 @@ You can preview your SDDM login screen without logging out using the `sddm-greet
 ```bash
 sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/silent
 ```
-
+Note for MangoHud users: If the test window crashes immediately (SIGSEGV error) and you have MangoHud enabled globally, you need to disable it for this command:
+```bash
+MANGOHUD=0 sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/silent
+```
 ## 📄 License
 This project is licensed under the MIT License.
