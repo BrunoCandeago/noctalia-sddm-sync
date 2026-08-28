@@ -51,7 +51,7 @@ wallpaper_changed = "cp \"$NOCTALIA_WALLPAPER_PATH\" /usr/share/sddm/themes/sile
 **Restart Noctalia**, select a new wallpaper from the UI, and your SDDM login screen will automatically sync!
 
 ## 🧪 Testing
-You can preview your SDDM login screen without logging out using the `sddm-greeter` test mode. *(Note: `MANGOHUD=0` is used to prevent crashes if you have MangoHud globally enabled).*
+You can preview your SDDM login screen without logging out using the `sddm-greeter` test mode.
 
 ```bash
 sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/silent
